@@ -1,6 +1,8 @@
-# BitFinance Dex App
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/BitFinance-Co/dex-app) 
 
-![animated preview](https://github.com/sigillabs/mobidex/raw/master/images/previews/animated/10-06-2018T13-57-49.gif)
+# Mobidex
+
+![animated preview](https://github.com/sigillabs/bitfinancedex/raw/master/images/previews/animated/10-06-2018T13-57-49.gif)
 
 ## Table of Contents
 
@@ -128,7 +130,7 @@ To run Mobidex on the iOS simulator from XCode, follow these steps.
 
 `pushd ios && bundle install --path .gems && bundle exec pod install && popd`
 
-3.  Open `ios/mobidex.xcworkspace` in XCode
+3.  Open `ios/bitfinancedex.xcworkspace` in XCode
 
 4.  Select **Build Phases** for `Pods > secp256k1_swift` target and remove `secp256k1_swift-dummy.m`.
 
@@ -164,7 +166,7 @@ This will construct a signed android release. This is the preferred method of co
 NOTE: Make sure `gradle.properties` has `android.enableAapt2=false`. Otherwise, the build will fail with:
 
 ```
-mobidex/android/app/build/intermediates/res/merged/release/drawable-hdpi/node_modules_reactnavigation_src_views_assets_backicon.png: error: uncompiled PNG file passed as argument. Must be compiled first into .flat file..
+bitfinancedex/android/app/build/intermediates/res/merged/release/drawable-hdpi/node_modules_reactnavigation_src_views_assets_backicon.png: error: uncompiled PNG file passed as argument. Must be compiled first into .flat file..
 error: failed parsing overlays.
 ```
 
@@ -176,7 +178,7 @@ Run `npm run build:android:release`. See notes above.
 
 ### iOS
 
-1.  Open mobidex in XCode
+1.  Open bitfinancedex in XCode
 2.  Archive App
 3.  Upload app to app store
 
@@ -186,22 +188,22 @@ Mobidex is an open source project. As such, there are many ways to contribute. S
 
 ### Submit A Bug
 
-All issues with the Mobidex client are public. They can be found at https://github.com/sigillabs/mobidex/issues.
+All issues with the Mobidex client are public. They can be found at https://github.com/sigillabs/bitfinancedex/issues.
 
 1. Click _New Issue_
 2. Fill in the template
 3. Click submit
 
-You can also run the issue by the [telegram](https://t.me/mobidex) group before creating an issue.
+You can also run the issue by the [telegram](https://t.me/bitfinancedex) group before creating an issue.
 
 ### Development
 
-1. Find a **good first [issue](https://github.com/sigillabs/mobidex/issues)**.
+1. Find a **good first [issue](https://github.com/sigillabs/bitfinancedex/issues)**.
 2. Submit a pull request.
 
 ### Testing
 
-Any one can become a tester. Just join the Mobidex [telegram](https://t.me/mobidex) and ask and admin to join.
+Any one can become a tester. Just join the Mobidex [telegram](https://t.me/bitfinancedex) and ask and admin to join.
 
 ## Special Thanks To Our Testers
 
