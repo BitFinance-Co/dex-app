@@ -1,4 +1,4 @@
-# Mobidex
+# BitFinance Dex App
 
 ![animated preview](https://github.com/sigillabs/mobidex/raw/master/images/previews/animated/10-06-2018T13-57-49.gif)
 
